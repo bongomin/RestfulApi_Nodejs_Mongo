@@ -1,0 +1,23 @@
+{
+  "name": "RestfulApi_Nodejs_Mongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bongomin/RestfulApi_Nodejs_Mongo.git"
+  },
+  "keywords": [],
+  "author": "Bongomin Daniel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bongomin/RestfulApi_Nodejs_Mongo/issues"
+  },
+  "homepage": "https://github.com/bongomin/RestfulApi_Nodejs_Mongo#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
