@@ -12,5 +12,4 @@ var customerSchema = new Schema({
 
 });
 mongoose.model('customers', customerSchema);
-
 // module.exports = mongoose.module('customer',customerSchema);
