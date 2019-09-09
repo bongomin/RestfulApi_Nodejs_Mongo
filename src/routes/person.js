@@ -19,6 +19,11 @@ router.get('/person/:name' ,(req,res) => {
    res.status('200').send(`this is the person end point ${req.params.name}`);
    });
 
+// generating an error to test the 500 handler
+router.get('/error' ,(req,res) => {
+   throw new Error('This is a Forced Error ');
+})
+
 
 module.exports = router;
 
